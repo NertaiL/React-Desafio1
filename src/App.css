@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Barlow:ital@1&family=Oswald&family=PT+Sans+Narrow:wght@700&family=Ubuntu:ital,wght@1,300&display=swap');
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* font-family: 'Oswald', sans-serif; */
+}
+
+h1{
+  color: rgb(54, 43, 16);
+  cursor: pointer;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  row-gap: 5rem;
+  column-gap: 2rem;
+  margin-top: 4rem;
+}
+
+.card-title{
+  font-family: 'PT Sans Narrow', sans-serif;
+  
+}
+
+.card-text{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+}
+
+.badge{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.card-img-top {
+  height: 12rem;
+}
+
+.card-body{
+  background-color:rgba(136, 121, 103, 0.829);
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDxUPDQ8NDQ0PDw8PDw0NDw8NDw8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDysZFRkrKy0tNy0rLSsrNy0tKy0tKzctLS0rNystLSstLSstKystLSs3KysrKystLTctKysrK//AABEIAPEA0QMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAgADBgUE/8QAIhABAQEAAgICAgMBAAAAAAAAAAERApEU0VFSBGISE6ED/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD2hBjLRiolUEVDAQVCIoCqJiooYYFAYYIqAYqJVBDDAYouGCGIKZoyhXEGAopIKYMDzauKVRlplRKoIpSVKGKiVIGKgMUMVExUAxUTFQDFJigLM0VFxURFQFEEGIIE6ltBbJ0A8+YDEVRgMBUUmKgFUSoFQxKoCjAQMUlUAqiYQU0BEVFRMMoKKdbQVp1B1RTJ1tBRRrA+EYDEVRgMBUVEwwFKiTAVDBDAUYlUBUMTFQFFJBRlRq4IWDAo6mU0DranW0FaLU62gdYayj46okxFUYDAVCIQVDAYCoUxUAxSSCoYlUBTBgJiSIqHUsCjqdbRVDU62gdFo0WgrWRrA+aYlQFUSZQWYkwFRUTCCinVQCpGqgKhiTEFFJ0DCk6oWDAdbQLQLaLRoG1NrWpqCtZOsD8BghiqowGCKhghgKMBgGKSUFGJMBUMSYBIYFawYCwYDo0MDWhhaDWi1rU2inWSwPyEGAowQwCqAxUUYlSKSkgTBpAqSQLBtAlJgENRoFgNBtFraKDWpta0UG1gyDgY2FoLMyBMDRUWYkyoqmBAmJIKKSBbQwFpQwFhoA6G0AU2tamgbU2tam1FVrJ1gQzBpFMGQU0BgFUqDAWUQ6CtOp1gWdRp0FMG0CyWBWgaAI0aNA2i0aLUVqm1rUWgrWRpBtYMqFg2goxJ0FaZUaZQXp1LaCtOpYFadTpBTJbRVNqdbRDo0aNFI1tFqDam1rU2g1qbWtTaCtZGsCwNbVRWga0oLbUtoKVKjToL0o06CjqW0FaU62iqbRraB1tGjQOtanRaB0Wi0ag1otFqbQNqLWtTaCmTrIrpo1OtrSK1pU62gvW1Mo0R0lVrnKqUVetqZW0F62p1tBetqdbQXo0a2gdbU62gdFo0agbRaLU2oG1FrWptFa1NrWptBWhOsDra2ptbWkOto0CL06jToL0yo06irlOolOgvTrnKrQVp1GtoL1tTraBbU62gdFo1NqBtFotTaqtaLRam1BrU2tai1FVrJ1gd8YeTfrw6vtvJv14dX21WY2j+R8i/Xh1fZ/uv14dX2XCNp4t/ffrw6vsz/vfrw6vsuEJweRfjh1fZ8m/Xh1faXFY43k368Oq3k368Or7KNIcbyb8cOr7Pk344dX2UbGxvJvxw6vtvJvxw6vsGxsbyb8cOr7byb8cOqDYMPk3449X2PJvxx6vsALD5N+OPV9jyb8cer7KQWJsX5N+vHq+038m/HDq+ykRYmxd/Jv149X2i/k/rx6vtKsRYirv5P68f99ov5P68f9Bmbyf1491gUWYRlRmFYxmBizAxZgMLMDMzAzMwCiswBmZBIrMKnk50sDnUcgwrMzA//9k=);
+ 
+
+ 
+
+}
+.card-img-top{
+  border: 4px solid rgb(54, 43, 16);
+}
+
+.card-body{
+  border: 2px solid rgb(54, 43, 16);
+}
+
+
+footer{
+  cursor: pointer;
+  margin-top: 4rem;
+  background-image: url(https://i.pinimg.com/originals/0c/bf/2f/0cbf2f5c3fb37d033c0bc791ae196dbb.gif);
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+
+}

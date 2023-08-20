@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:ital,wght@0,400;1,300&display=swap");
+body {
+  background-image: url(https://i.pinimg.com/originals/0c/bf/2f/0cbf2f5c3fb37d033c0bc791ae196dbb.gif);
+  color: rgb(88, 70, 26);
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.867);
+  box-shadow: 0px 0px 10px aliceblue;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px aliceblue;
+  transition: transform 1s, ease-in-out 0.3s;
+  transform: scale(1.06);
+}
+
+.badge {
+  font-family: "PT Sans Narrow", sans-serif;
+  padding: 0.6rem;
+}
